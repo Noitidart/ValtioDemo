@@ -85,6 +85,11 @@ export default function App() {
                   Extra code in wrapping components room for more errors and
                   logic ("Context - with memoed contexts")
                 </li>
+                <li>
+                  After memoed component selects the state, must prop drill from
+                  there on. Or wrap again with memoed component to select.
+                  (large object selected) ("Context - with memoed contexts")
+                </li>
 
                 <li>
                   Allows holding large object{' '}
